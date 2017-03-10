@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Networks Technologies" uploadOnCheckin="99be9f8b-0536-4ffb-96ca-2b8a72add3b6">
+  <component name="PublishConfigData" autoUpload="Always" uploadOnCheckin="99be9f8b-0536-4ffb-96ca-2b8a72add3b6">
     <serverData>
       <paths name="IfeServer">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
