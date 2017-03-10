@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="IfeServer" uploadOnCheckin="99be9f8b-0536-4ffb-96ca-2b8a72add3b6">
+    <serverData>
+      <paths name="IfeServer">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="IfeServer" />
+  </component>
+</project>
