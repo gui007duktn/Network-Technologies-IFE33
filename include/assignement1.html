@@ -15,10 +15,17 @@
             <li><a href="../include/contact.html">Contact</a></li>
         </ul>
         <h1>Assignement 1:</h1>
+
         <h3>Your ip address:</h3>
         <br \> <a href="http://en.utrace.de/" target="_blank">
             <img src="http://en.utrace.de/widget/" border="0" width="125"
                  height="125" title="IP address" alt="IP address"></a>
+        <br \>
+        <br \>
+        <br \>
+        <p>
+           <strong>All the research are done with help of Internet and Wikipedia</strong>
+        </p>
         <br \>
         <h3>Definitions:</h3>
         <p>
@@ -49,11 +56,190 @@
                         contents of that path. Two instances at the same layer are visualized as connected by a <br \>
                         horizontal connection in that layer.<br \>
                     </p>
-                    <img src="../Images/osi-model.gif" width="500" height="500">
+                    <img src="../Images/osi-model.gif" width="400" height="300">
                 </li>
                 <li>
                     <p>
-                        <img src="../Images/iphdr.gif" width="500" height="500">
+                        Version: 4 bits<br \>
+                        IHL: 4 bits<br \>
+                        Type of Service: 8 bits<br \>
+                        Total Length: 16 bits<br \>
+                        Identification: 16 bits<br \>
+                        Flags: 3 bits<br \>
+                        Fragment Offset: 13 bits<br \>
+                        Time to Live: 8 bits<br \>
+                        Protocol: 8 bits<br \>
+                        Header Checksum: 16 bits<br \>
+                        Source Address: 32 bits<br \>
+                        Destination Address: 32 bits<br \>
+                        Options: variable<br \>
+                        Padding: variable<br \>
+                        <img src="../Images/iphdr.gif" width="500" height="300">
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The Internet Control Message Protocol (ICMP) is a supporting protocol in the <br \>
+                        Internet protocol suite. It is used by network devices, like routers, to send<br \>
+                        error messages and operational information indicating, for example, that a requested<br \>
+                        service is not available or that a host or router could not be reached. ICMP <br \>
+                        differs from transport protocols such as TCP and UDP in that it is not typically<br \>
+                        used to exchange data between systems, nor is it regularly employed by end-user <br \>
+                        network applications (with the exception of some diagnostic tools like ping and traceroute).<br \>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A subnetwork or subnet is a logical subdivision of an IP network. .<br \>
+                        The practice of dividing a network into two or more networks is called subnetting..<br \>
+
+                        Computers that belong to a subnet are addressed with a common, .<br \>
+                        identical, most-significant bit-group in their IP address. .<br \>
+                        This results in the logical division of an IP address into two .<br \>
+                        fields, a network or routing prefix and the "rest" field or host identifier. .<br \>
+                        The rest field is an identifier for a specific host or network interface..<br \>
+                        <br \>
+                        For IPv4, a network may also be characterized by its subnet mask, <br \>
+                        which is the bitmask that when applied by a bitwise AND operation <br \>
+                        to any IP address in the network, yields the routing prefix. <br \>
+                        Subnet masks are also expressed in dot-decimal notation like an address. <br \>
+                        For example, 255.255.255.0 is the network mask for the 192.168.1.0/24 prefix.<br \>
+                    </p>
+                    <img src="../Images/subnet.gif" width="500" height="300">
+                </li>
+                <li>
+                    <p>
+                        A classful network is a network addressing architecture used in the <br \>
+                        Internet from 1981 until the introduction of Classless Inter-Domain<br \>
+                        Routing in 1993. The method divides the address space for Internet <br \>
+                        Protocol Version 4 (IPv4) into five address classes by address range.<br \>
+                        Classes A, B, C are networks of three different network sizes, i.e. <br \>
+                        number of hosts for unicast addresses. Class D is for multicast. The <br \>
+                        class E address range is reserved for future or experimental purposes. <br \>
+                        Under classful networking, the subnet mask was implied by which address <br \>
+                        range (class) the address occupied and did not need to be specified separately.<br \>
+                    </p>
+                    <img src="../Images/Classes.gif" width="500" height="200">
+                </li>
+                <li>
+                    <p>
+                        A routing table uses the same idea that one does when <br \>
+                        using a map in package delivery. Whenever a node needs<br \>
+                        to send data to another node on a network, it must first <br \>
+                        know where to send it. If the node cannot directly connect<br \>
+                        to the destination node, it has to send it via other nodes <br \>
+                        along a proper route to the destination node. Most nodes do not <br \>
+                        try to figure out which route(s) might work; instead, a node will <br \>
+                        send an IP packet to a gateway in the LAN, which then decides how to <br \>
+                        route the "package" of data to the correct destination. Each gateway will <br \>
+                        need to keep track of which way to deliver various packages of data, <br \>
+                        and for this it uses a Routing Table. A routing table is a database <br \>
+                        which keeps track of paths, like a map, and allows the gateway to provide <br \>
+                        this information to the node requesting the information.<br \>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        A default gateway in computer networking is the node that is assumed <br \>
+                        to know how to forward packets on to other networks. Typically, in a <br \>
+                        TCP/IP network, nodes such as servers, workstations and network devices<br \>
+                        each have a defined default route setting, (pointing to the default gateway),<br \>
+                        defining where to send packets for IP addresses for which they can determine <br \>
+                        no specific route. The gateway is by definition a router.<br \>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In telecommunication and information theory, broadcasting is a method<br \>
+                        of transferring a message to all recipients simultaneously. <br \>
+                        Broadcasting can be performed as a high level operation in a program,<br \>
+                        for example broadcasting Message Passing Interface, or it may be a low <br \>
+                        level networking operation, for example broadcasting on Ethernet.<br \>
+
+                        All-to-all communication is a computer communication method in <br \>
+                        which each sender transmits messages to all receivers within a group.<br \>
+                        This contrasts with the point-to-point method in which each sender <br \>
+                        communicates with one receiver.<br \>
+                    </p>
+                    <img src="../Images/Broadcast.png" width="500" height="200">
+                </li>
+                <li>
+                    <p>
+                        In the Internet addressing architecture, a private network is a network <br \>
+                        that uses private IP address space, following the standards set by  <br \>
+                        RFC 1918 for Internet Protocol Version 4 (IPv4), and RFC 4193 for  <br \>
+                        Internet Protocol Version 6 (IPv6). These addresses are commonly used  <br \>
+                        for home, office, and enterprise local area networks (LANs).  <br \>
+                        Private IP address spaces were originally defined in an effort to delay  <br \>
+                        IPv4 address exhaustion, but they are also a feature of IPv6 where  <br \>
+                        exhaustion is not an issue. <br \>
+
+                        Addresses in the private space are not allocated to any specific  <br \>
+                        organization and anyone may use these addresses without approval  <br \>
+                        from a regional Internet registry. However, IP packets addressed from <br \>
+                        them cannot be transmitted through the public Internet, and so if  <br \>
+                        such a private network needs to connect to the Internet, it must do <br \>
+                        so via a network address translator (NAT) gateway, or a proxy server. <br \>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Network address translation (NAT) is a method of remapping one IP <br \>
+                        address space into another by modifying network address information<br \>
+                        in Internet Protocol (IP) datagram packet headers while they are in<br \>
+                        transit across a traffic routing device.[1] The technique was originally<br \>
+                        used for ease of rerouting traffic in IP networks without readdressing every host.<br \>
+                        In more advanced NAT implementations featuring IP masquerading, it has become a<br \>
+                        popular and essential tool in conserving global address space allocations in face <br \>
+                        of IPv4 address exhaustion by sharing one Internet-routable IP address of a NAT <br \>
+                        gateway for an entire private network.<br \>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Réseaux IP Européens (RIPE, French for "European IP Networks") is a<br \>
+                        forum open to all parties with an interest in the technical development <br \>
+                        of the Internet. The RIPE community’s objective is to ensure that the<br \>
+                        administrative and technical coordination necessary to maintain and develop <br \>
+                        the Internet continues. It is not a standards body like the Internet Engineering<br \>
+                        Task Force (IETF) and does not deal with domain names like ICANN.<br \>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        The Internet Corporation for Assigned Names and Numbers <br \>
+                        is a nonprofit organization that is responsible for coordinating the<br \>
+                        maintenance and procedures of several databases related to the namespaces <br \>
+                        of the Internet, ensuring the network's stable and secure operation.<br \>
+                        ICANN performs the actual technical maintenance work of the central <br \>
+                        Internet address pools and DNS root zone registries pursuant to the <br \>
+                        Internet Assigned Numbers Authority (IANA) function contract.<br \>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        In the seven-layer OSI model of computer networking, the physical <br \>
+                        layer or layer 1 is the first and lowest layer. This layer may be implemented by a PHY.<br \>
+                        <br \>
+                        The physical layer consists of the networking hardware transmission <br \>
+                        technologies of a network. It is a fundamental layer underlying <br \>
+                        the logical data structures of the higher level functions in a network. <br \>
+                        Due to the plethora of available hardware technologies with widely varying<br \>
+                        characteristics, this is perhaps the most complex layer in the OSI architecture.<br \>
+                        <br \>
+                        The physical layer defines the means of transmitting raw bits rather than <br \>
+                        data packets over a physical link connecting network nodes. The bit stream <br \>
+                        may be grouped into code words or symbols and converted to a physical signal<br \>
+                        that is transmitted over a hardware transmission medium. The physical layer <br \>
+                        provides an electrical, mechanical, and procedural interface to the transmission<br \>
+                        medium. The shapes and properties of the electrical connectors, the <br \>
+                        frequencies to broadcast on, the modulation scheme to use and similar <br \>
+                        low-level parameters, are specified here.
+                        <br \>
+
+                        Within the semantics of the OSI network architecture, the physical layer <br \>
+                        translates logical communications requests from the data link layer into<br \>
+                        hardware-specific operations to cause transmission or reception of electronic signals.<br \>
                     </p>
                 </li>
             </ul>
